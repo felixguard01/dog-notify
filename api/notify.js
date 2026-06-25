@@ -42,7 +42,7 @@ export default async function handler(req, res) {
                 to: u.user_id,
                 messages: [{
                     type: 'text',
-                    text: `🐶 เจ้าของกำลังคิดถึงหมา!\nกดไปแล้ว ${count} ครั้งแล้วนะ 🐾`
+                    text: `🐶 เจ้าของกำลังคิดถึงหมา!\nกดไปแล้ว ${count} ครั้งแล้วนะ 🐾\nมาเล่นกับเจ้าของเดี๋ยวนี้\nเจ้าของจะงอนแล้วนะ 🥺`
                 }]
             })
         })
